@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -35,23 +36,26 @@ function Header() {
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
+            <Link href="/blog">
+              <a
+                href="/blog"
+                class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white mr-4"
+              >
+                Blog
+              </a>
+            </Link>
+
             <a
               href="#responsive-header"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white mr-4"
             >
-              Blog
-            </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white mr-4"
-            >
-              Links
+              Github
             </a>
             <a
               href="#responsive-header"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white"
             >
-              Blog
+              LinkedIn
             </a>
           </div>
           <div>
