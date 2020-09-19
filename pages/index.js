@@ -2,40 +2,43 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 
 const Home = () => (
-  <div className="container">
+  <div className='container'>
     <Head>
       <title>VictorGu</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel='icon' href='/favicon.ico' />
     </Head>
 
     <main>
-      <h1 className="title">
-        Welcome to <a href="#">victorgu.com!</a>
-      </h1>
-
-      <p className="description">
-        Software Engineer currently at <code>/home</code>
+      <h3 className='title' style={{ color: "#0e182a" }}>
+        Victor Guadarrama
+      </h3>
+      <p className='description' style={{ color: "#0e182a" }}>
+        Software Engineer currently working from 🏡
       </p>
 
-      <div className="grid">
-        <a href="#" className="card">
-          <h3>Software Dev &rarr;</h3>
-          <p>Acá va info sobre tecnologías de desarrollo de software.</p>
+      <div className='grid'>
+        <a
+          href='https://www.linkedin.com/in/victorgu/'
+          target='_blank'
+          className='card'
+        >
+          <h3>LinkedIn &rarr;</h3>
+          <p>My LinkedIn profile.</p>
         </a>
 
-        <a href="#" className="card">
-          <h3>Links</h3>
-          <p>Sitios interesantes blah blah blah blah blah blah blah </p>
+        <a href='https://github.com/victore/' target='_blank' className='card'>
+          <h3>Github</h3>
+          <p>My space on Github</p>
         </a>
 
-        <a href="#" className="card">
-          <h3>Básquetbol &rarr;</h3>
-          <p>Basket blah blah blah blah blah blah blah blah blah blah </p>
+        <a href='https://gitlab.com/victorgu' target='_blank' className='card'>
+          <h3>Gitlab</h3>
+          <p>My space on Github</p>
         </a>
 
-        <a href="#" className="card">
-          <h3>Literatura &rarr;</h3>
-          <p>blah blah blah blah blah blah blah blah blah blah blah </p>
+        <a href='#' className='card'>
+          <h3>Work in progress &rarr;</h3>
+          <p>loading...</p>
         </a>
       </div>
     </main>
