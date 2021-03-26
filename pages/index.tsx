@@ -23,7 +23,7 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <p>Hi there! :) I'm a software engineer with some experience in the development of web/mobile apps. I like basketball, rap music, chess, bikes, podcasts, Nike, Borges, buddhism, cumbia, beers, books.</p>
         <p>
-          (This website was made with NextJS, Typescript and deployed on Vercel. These coming months I've learning Golang and UX/UI)
+          (This website was made with NextJS, Typescript and deployed on Vercel just for fun... and because I'm learning Typescript. These coming months I'll be learning Golang and UX/UI)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
