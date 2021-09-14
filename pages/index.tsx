@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Date from '../components/date'
 import { GetStaticProps } from 'next'
 
+const skills = ["AWS", "Golang", "Ruby on Rails", "Javascript", "Typescript", "React", "Redux", "MaterialUI", "UX/UI", "Git", "CI/CD", "Jest", "TestingLibrary"]
+
 export default function Home({
   allPostsData
 }: {
@@ -21,10 +23,17 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi there! :) I'm a software engineer with some experience in the development of web/mobile apps. I like basketball, rap music, chess, bikes, podcasts, Nike, Borges, buddhism, cumbia, beers, books.</p>
-        <p>
-          (This website was made with NextJS, Typescript and deployed on Vercel just for fun... and because I'm learning Typescript. These coming months I'll be learning Golang and UX/UI)
+      <p>Hi there! : ) I'm a software engineer from 🇲🇽. I like working with modern technologies to improve the live of users. Currently doing some magic at <a href="https://infosel.com/" target="_blank">Infosel</a>.</p>
+      <p>I like basketball, rap music, chess, bikes, podcasts, Nike, Borges, buddhism, cumbia, beers, books.</p>
+      <p>(This website was built using <a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a> and deployed on <a href="https://vercel.com/" target="_blank">Vercel</a>.)
         </p>
+      </section>
+      
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2>Skills</h2>
+        <ul>
+          {skills.map((skill, index) => <li key={index}>{skill}</li>)}
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

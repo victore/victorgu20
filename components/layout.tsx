@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Victor Guadarrama'
-export const siteTitle = 'victorgu dot com'
+const name = 'Víctor Guadarrama'
+export const siteTitle = 'Víctor Guadarrama'
 
 export default function Layout({
   children,
@@ -36,7 +36,7 @@ export default function Layout({
           <>
             <Image
               priority
-              src="/images/react.png"
+              src="/images/react50.png"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
