@@ -23,9 +23,9 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-      <p>Hi there! : ) I'm a software engineer from 🇲🇽. I like working with modern technologies to improve the live of users. Currently doing some magic at <a href="https://infosel.com/" target="_blank">Infosel</a>.</p>
+      <p>Hi there! : ) I'm a software engineer from 🇲🇽. I like working with modern technologies to improve the live of users. Currently doing some magic at <a href="https://infosel.com/" target="_blank" rel="noreferrer">Infosel</a>.</p>
       <p>I like basketball, rap music, chess, bikes, podcasts, Nike, Borges, buddhism, cumbia, beers, books.</p>
-      <p>(This website was built using <a href="https://nextjs.org/" target="_blank">NextJS</a>, <a href="https://www.typescriptlang.org/" target="_blank">Typescript</a> and deployed on <a href="https://vercel.com/" target="_blank">Vercel</a>.)
+      <p>(This website was built using <a href="https://nextjs.org/" target="_blank" rel="noreferrer">NextJS</a>, <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">Typescript</a> and deployed on <a href="https://vercel.com/" target="_blank" rel="noreferrer">Vercel</a>.)
         </p>
       </section>
       
